@@ -13,7 +13,6 @@ def extract_filename(urls):
     filenames = {}
     
     for i in range(len(urls)):
-        
         j = -1
         nameindex = ""
         while nameindex != "/":
